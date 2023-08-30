@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Code</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            display: inline-block;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png"
+    alt="JavaScript Logo" width="50px">
+<h1>JavaScript Code</h1>
+
+<body>
+    <p>View the JS Code from the developer tools of your browser</p>
+    <script>
+        // Functions
+        function greetUser() {
+            const name = prompt("What's your name?");
+            console.log(`Hello, ${name}!`);
+        }
+        greetUser();
+
+        // Math
+        function sub() {
+            const a = parseFloat(prompt("Enter a number: "));
+            const b = parseFloat(prompt("Enter another number: "));
+
+            console.log(a - b);
+        }
+        sub();
+
+        // Constant for my birthyear
+        const birthYear = 2003;
+
+        // Array of favorite food
+        const favoriteFoods = ["Dosa", "Chaat", "Pizza"];
+
+        // Book
+        const book = {
+            title: "Sapiens: A Brief History of Humankind",
+            author: "Yuval Noah Harari",
+            publicationYear: 2011
+        }
+
+        console.log(birthYear)
+        console.log(favoriteFoods);
+        console.log(book)
+    </script>
+
+</body>
+
+</html>
